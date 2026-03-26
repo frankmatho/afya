@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { api } from '../../api/client'
 import AdminLayout from './AdminLayout'
-import { StatCard, Badge, Avatar, Spinner } from '../../components/ui'
+import { StatCard, Badge, Avatar, Spinner } from '../../components/UI'
 
 export default function AdminDashboard() {
   const [doctors,  setDoctors]  = useState([])

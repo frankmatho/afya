@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { api } from '../../api/client'
 import AdminLayout from './AdminLayout'
-import { Avatar, Badge, Button, Modal, Table, Tr, Td, PageHeader, SearchBar } from '../../components/ui'
+import { Avatar, Badge, Button, Modal, Table, Tr, Td, PageHeader, SearchBar } from '../../components/UI'
 
 export default function AdminPatients() {
   const [patients, setPatients] = useState([])

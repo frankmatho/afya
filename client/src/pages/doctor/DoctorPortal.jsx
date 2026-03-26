@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { api } from '../../api/client'
 import { useAuth } from '../../context/AuthContext'
-import { Avatar, Badge, Button, Modal, FormField, Input, Select, Textarea, Table, Tr, Td, PageHeader, SearchBar, StatCard, ErrorAlert, Spinner } from '../../components/ui'
+import { Avatar, Badge, Button, Modal, FormField, Input, Select, Textarea, Table, Tr, Td, PageHeader, SearchBar, StatCard, ErrorAlert, Spinner } from '../../components/UI'
 
 /* ── Doctor Layout ────────────────────────────────────── */
 function DoctorLayout({ children }) {

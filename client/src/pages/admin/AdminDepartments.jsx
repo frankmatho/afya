@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { api } from '../../api/client'
 import AdminLayout from './AdminLayout'
-import { Badge, Button, Modal, FormField, Input, Textarea, Table, Tr, Td, PageHeader, ErrorAlert } from '../../components/ui'
+import { Badge, Button, Modal, FormField, Input, Textarea, Table, Tr, Td, PageHeader, ErrorAlert } from '../../components/UI'
 
 const BLANK = { name: '', description: '' }
 
