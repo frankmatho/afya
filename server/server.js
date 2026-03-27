@@ -15,9 +15,10 @@ const PORT = process.env.PORT || 5001
 app.use(cors({ 
   origin: [
     'http://localhost:5173',
-     'https://afya-ochre.vercel.app'
+     'https://afya-ochre.vercel.app/login'
   ], 
-  credentials: true }))
+  credentials: true 
+}))
 app.use(express.json())
 
 app.use('/api/auth',        authRoutes)
