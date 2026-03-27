@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const { getDepartments, createDepartment, updateDepartment } = require('../controllers/departmentController')
+const { getDepartments, createDepartment, updateDepartment } = require('../controllers/DepartmentController')
 const { protect, adminOnly } = require('../middleware/auth')
 
 router.use(protect)

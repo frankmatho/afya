@@ -1,6 +1,6 @@
-const Prescription = require('../models/prescriptionModel')
-const Doctor       = require('../models/doctorModel')
-const Patient      = require('../models/patientModel')
+const Prescription = require('../models/PrescriptionModel')
+const Doctor       = require('../models/DoctorModel')
+const Patient      = require('../models/PatientModel')
 
 // GET /api/patients/:patientId/prescriptions
 const getPrescriptions = async (req, res) => {

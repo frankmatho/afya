@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const { getDoctors, getDoctor, createDoctor, updateDoctor, toggleStatus } = require('../controllers/doctorController')
+const { getDoctors, getDoctor, createDoctor, updateDoctor, toggleStatus } = require('../controllers/DoctorController')
 const { protect, adminOnly } = require('../middleware/auth')
 
 router.use(protect)

@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs')
-const Doctor = require('../models/doctorModel')
-const User   = require('../models/userModel')
+const Doctor = require('../models/DoctorModel')
+const User   = require('../models/UserModel')
 
 const uid = () => 'DOC' + Math.random().toString(36).slice(2, 5).toUpperCase() + Date.now().toString(36).slice(-3).toUpperCase()
 

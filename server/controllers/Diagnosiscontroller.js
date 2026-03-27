@@ -1,6 +1,6 @@
-const Diagnosis = require('../models/diagnosisModel')
-const Doctor    = require('../models/doctorModel')
-const Patient   = require('../models/patientModel')
+const Diagnosis = require('../models/DiagnosisModel')
+const Doctor    = require('../models/DoctorModel')
+const Patient   = require('../models/PatientModel')
 
 // GET /api/patients/:patientId/diagnoses
 const getDiagnoses = async (req, res) => {

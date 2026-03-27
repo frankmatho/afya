@@ -1,4 +1,4 @@
-const Department = require('../models/departmentModel')
+const Department = require('../models/DepartmentModel')
 
 const getDepartments = async (req, res) => {
   try { res.json(await Department.getAll()) }

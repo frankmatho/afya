@@ -2,12 +2,12 @@ require('dotenv').config()
 const express = require('express')
 const cors    = require('cors')
 
-const authRoutes         = require('./routes/authRoutes')
-const doctorRoutes       = require('./routes/doctorRoutes')
-const patientRoutes      = require('./routes/patientRoutes')
-const diagnosisRoutes    = require('./routes/diagnosisRoutes')
-const prescriptionRoutes = require('./routes/prescriptionRoutes')
-const departmentRoutes   = require('./routes/departmentRoutes')
+const authRoutes         = require('./routes/AuthRoutes')
+const doctorRoutes       = require('./routes/DoctorRoutes')
+const patientRoutes      = require('./routes/PatientRoutes')
+const diagnosisRoutes    = require('./routes/DiagnosisRoutes')
+const prescriptionRoutes = require('./routes/PrescriptionRoutes')
+const departmentRoutes   = require('./routes/DepartmentRoutes')
 
 const app  = express()
 const PORT = process.env.PORT || 5001

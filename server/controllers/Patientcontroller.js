@@ -1,7 +1,7 @@
-const Patient      = require('../models/patientModel')
-const Doctor       = require('../models/doctorModel')
-const Diagnosis    = require('../models/diagnosisModel')
-const Prescription = require('../models/prescriptionModel')
+const Patient      = require('../models/PatientModel')
+const Doctor       = require('../models/DoctorModel')
+const Diagnosis    = require('../models/DiagnosisModel')
+const Prescription = require('../models/PrescriptionModel')
 
 const uid = () => 'PAT' + Math.random().toString(36).slice(2, 5).toUpperCase() + Date.now().toString(36).slice(-3).toUpperCase()
 
